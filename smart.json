@@ -1,5 +1,8 @@
 {
   "packages": {
-    "jquery-ui": {}
+    "jquery-ui": {},
+    "modernizr-meteor": {},
+    "iron-router": {},
+    "iron-router-progress": {}
   }
 }

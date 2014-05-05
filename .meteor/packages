@@ -10,3 +10,6 @@ accounts-password
 jquery
 d3
 jquery-ui
+modernizr-meteor
+iron-router
+iron-router-progress
