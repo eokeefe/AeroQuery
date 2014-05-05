@@ -7,3 +7,6 @@ insecure
 standard-app-packages
 bootstrap
 accounts-password
+jquery
+d3
+jquery-ui
