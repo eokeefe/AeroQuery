@@ -1,0 +1,1 @@
+Pictures are not stored on GIT.

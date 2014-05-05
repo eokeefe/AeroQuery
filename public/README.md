@@ -1,0 +1,1 @@
+Images and Videos will not be stored on GIT. please include you're own media.
