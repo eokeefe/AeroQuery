@@ -1,1 +1,1 @@
-Images and Videos will not be stored on GIT. please include you're own media.
+Images and Videos will not be stored on GIT. please include you're own media samples can be found at http://www.beachfrontbroll.com/.
