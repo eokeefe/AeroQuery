@@ -28,47 +28,17 @@
   font-size: 3.5em;
   font-weight: 700;
 	margin-top: 30px;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .services {
   background: #7fbbda;
   padding: 50px 0;
   color: #ffffff;
+	box-sizing: border-box;
 }
-
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-		border-radius: 6px;
-  	margin-right: auto;
-  	margin-left: auto;
-		  max-width: 100%;
-  }
-
-@media (max-width: 768px) {
-
-  .header {
-	background: url(img/landingVid.jpg) no-repeat center center scroll;
-  }
-
-}
-
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 100%;
-  }
-}
-
 
 /*Video CSS*/
 
