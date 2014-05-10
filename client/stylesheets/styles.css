@@ -1,7 +1,7 @@
 /*Landing Page CSS*/
 .header {
   display: table;
-  height: 60%;
+  height: 100%;
   width: 100%;
   position: relative;
   background: url(img/landingVid.jpg) no-repeat center center fixed;
@@ -9,35 +9,42 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-	margin-top: 90px
+	margin-top: 90px;
 }
 
 .vert-text {
   display: table-cell;
   vertical-align: text-top;
   text-align: center;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 .vert-text h1 {
-  margin: 0;
   font-size: 4.5em;
   font-weight: 700;
 }
 .vert-text h2 {
-  margin: 0;
   font-size: 3.5em;
   font-weight: 700;
 	margin-top: 30px;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+
 }
 
 .services {
-  background: #7fbbda;
+  background: #F0F8FF;
   padding: 50px 0;
-  color: #ffffff;
+  color: #000000;
 	box-sizing: border-box;
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	margin-top: 90px
 }
 
 /*Video CSS*/
@@ -59,7 +66,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	color: #fff;
-	overflow: hidden;
+
 	font-family: 'Open Sans Condensed', Arial, sans-serif;
 	font-weight: 300;
 	font-size: 1em;
@@ -174,5 +181,5 @@ html, body {
 	height: 100%;
 	width: 100%; /*  NOTE:numVideos/100%  */
 	float: left;
-	overflow: hidden;
+
 }
