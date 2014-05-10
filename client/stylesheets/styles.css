@@ -45,26 +45,6 @@
 	margin-top: 190px
 }
 
-
-
-.callout {
-  display: table;
-  height: 600px;
-  width: 100%;
-	background: #000000;
-  /*background: url(../img/callout.jpg) no-repeat center center fixed;*/
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-box-sizing: border-box;
-  position: relative;
-		table-layout: fixed;
-    border-collapse: collapse;
-    z-index: -1; position:relative
-}
-
 @media (max-width: 768px) {
   .callout {
 	background: url(../img/callout.jpg) no-repeat center center scroll;
