@@ -16,8 +16,6 @@
   display: table-cell;
   vertical-align: text-top;
   text-align: center;
-	height: 100%;
-	width: 100%;
 	box-sizing: border-box;
 	min-height: 1px;
 	padding-right: 15px;
@@ -41,10 +39,28 @@
   color: #000000;
 	box-sizing: border-box;
 	display: table;
-	height: 100%;
+	height: 200px;
 	width: 100%;
 	position: relative;
-	margin-top: 90px
+	margin-top: 190px
+}
+
+.callout {
+  color: #ffffff;
+  display: table;
+  height: 600px;
+  width: 100%;
+  background-image: url(img/callout.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .callout {
+	background: url(../img/callout.jpg) no-repeat center center scroll;
+  }
 }
 
 /*Video CSS*/
