@@ -1,3 +1,3 @@
 Pictures are not stored on GIT.
 
--- For picture/video samples see http://www.beachfrontbroll.com/
+-- Please insert static photo here. This will render first before while the video is loading.

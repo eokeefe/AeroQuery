@@ -1,3 +1,8 @@
+
+
+
+
+
 .grid-block, .main, .post, .comments li, .comment-form {
 	background: #fff;
 	-webkit-border-radius: 3px;
@@ -127,7 +132,7 @@ html, body {
 
 .screen {
 	position: relative;
-	height: 100%; 
+	height: 100%;
 	width: 100%; /*  NOTE:numVideos/100%  */
 	float: left;
 	overflow: hidden;
