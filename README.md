@@ -1,16 +1,13 @@
-Big Video
+Big Video is an open source project for Meteor that will provide a video background to your app.
 
-Open source Meteor app that will provide a video background to your app
+You can demo the project at http://big-video.meteor.com/
 
 Required Meteor Packages
-    jquery-ui
+    `jquery-ui
     modernizr-meteor
     iron-router
-    iron-router-progress
+    iron-router-progress`
 
-Since videos and photos are not stored in Git, you will have to add a photo in /public/img that will load first. Ideally this should be a photos that looks like the video so to create a seamless transition.
-
-Next add the video to /public/vid, which will run once it is fully loaded.
-
+To install you will need to add a video to /public/vid that will play in the background. For better performance consider adding a photo of the video in /public/img that will load first to improve performance.
 
 More to come soon...
