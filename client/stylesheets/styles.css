@@ -1,7 +1,37 @@
+/*Landing Page CSS*/
 
 
+.top {
+  display: table;
+  height: 60%;
+  width: 100%;
+  position: relative;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: text-top;
+  text-align: center;
+}
+
+.vert-text h1 {
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+}
+.vert-text h2 {
+  margin: 0;
+  font-size: 3.5em;
+  font-weight: 700;
+}
 
 
+/*Video CSS*/
 
 .grid-block, .main, .post, .comments li, .comment-form {
 	background: #fff;
