@@ -4,7 +4,7 @@
   height: 100%;
   width: 100%;
   position: relative;
-  background: url(img/landingVid.jpg) no-repeat center center fixed;
+  background: url(../img/landingVid.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -45,16 +45,24 @@
 	margin-top: 190px
 }
 
+
+
 .callout {
-  color: #ffffff;
   display: table;
   height: 600px;
   width: 100%;
-  background-image: url(img/callout.jpg) no-repeat center center fixed;
+	background: #000000;
+  /*background: url(../img/callout.jpg) no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+box-sizing: border-box;
+  position: relative;
+		table-layout: fixed;
+    border-collapse: collapse;
+    z-index: -1; position:relative
 }
 
 @media (max-width: 768px) {
