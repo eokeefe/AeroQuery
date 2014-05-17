@@ -8,7 +8,7 @@ Required Meteor Packages
     iron-router
     iron-router-progress`
 
-Currently runs on Meteor `0.8.1.1`
+Currently runs on Meteor `0.8.1.2`
 
 To install you will need to add a video to /public/vid that will play in the background. For better performance consider adding a photo of the video in /public/img that will load first to improve performance.
 
