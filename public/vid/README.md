@@ -1,3 +1,3 @@
 Videos are not stored on GIT.
 
--- For picture/video samples see http://www.beachfrontbroll.com/
+-- Insert video here. This will run once it is fully loaded. 
